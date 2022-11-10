@@ -12,8 +12,8 @@ if [ "$IMG" = "amaml" ]; then
     echo "Activate the environment for Ajoint MAML..."
 elif [ "$IMG" = "decpinn" ]; then
     echo "Activate the enviroment for Auto Decomp PINN..."
-elif [ "$IMG" = "ifar" ]; then
-    echo "Activate the enviroment for Infinite Fidelity Autoregressive ..."
+elif [ "$IMG" = "nfe" ]; then
+    echo "Activate the enviroment for Neural Flow ..."
 else
     echo "ERROR: No name Docker image has found !"
     exit 1
